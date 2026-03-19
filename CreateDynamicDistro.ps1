@@ -1,6 +1,6 @@
 ﻿#use the below commands from the exchange cloud powershell. 
 
-#connect to exchange online↓
+#connect to exchange online
 Connect-ExchangeOnline
 
 #Create the distro, be sure to replace the placeholder names↓
