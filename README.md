@@ -1,10 +1,12 @@
-# MSExchangeDynamicDistroCreation
-repository for the project to create dynamic distribution groups in exchange online powershell. 
+# MSExchangeDynamicDistroCreation 
+This is a collection of powershell scripts I've written to aid in creating and maintaining Dynami Distibution Groups using Exchange Online in Powershell. 
 
 
-This process should start with creating a DDG for the leader at VP level using the "CreateDynamicDistro.ps1" script. This will create a DDG comprised of just their reports.  --Be sure to change parameters as needed. 
 
-Use "DDGPrintTeam" to export that DDG to a .csv containing all members of that DDG. 
+
+Use these Scripts, just remember to change parameters as needed. 
+
+Use "DDGPrintTeam" to export a DDG to a .csv containing all members of that DDG. 
 
 Use "DDGFormat.ps1" to format the .csv in preperation of the next step. 
 
